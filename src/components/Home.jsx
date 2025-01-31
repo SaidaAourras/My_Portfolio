@@ -42,10 +42,7 @@ const Home = () => {
         </div>
       </div>
       <div className="home-img">
-        <img
-          src="../../public/images/profile.jpg"
-          alt="profile_SAIDA_AOURRAS"
-        />
+        <img src="images/profile.jpg" alt="profile_SAIDA_AOURRAS" />
       </div>
     </section>
   );

@@ -9,10 +9,7 @@ const Projects = () => {
         <div className="wrapper">
           {projects.map((project, index) => (
             <div key={index} className="project-item">
-              <img
-                src={`../../public/images/${project.image}`}
-                alt={project.name}
-              />
+              <img src={`images/${project.image}`} alt={project.name} />
               <h2>{project.name}</h2>
               <div className="rating"></div>
               <p>{project.description}</p>

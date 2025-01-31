@@ -5,7 +5,7 @@ const AboutMe = () => {
     <section className="aboutMe" id="aboutMe">
       <div className="aboutMe-image">
         <div className="img-box">
-          <img src="../../public/images/profile3.png" />
+          <img src="images/profile3.png" />
         </div>
         <div className="liquid-shape">
           <svg
